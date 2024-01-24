@@ -3,7 +3,7 @@
 
 MPeMSupervisedSurv is a CNN inspired from EE-Surv:
 
-#@InProceedings{pmlr-v156-ghaffari-laleh21a,
+@InProceedings{pmlr-v156-ghaffari-laleh21a,
   title = 	 {Deep Learning for interpretable end-to-end survival (E-ESurv) prediction in gastrointestinal cancer histopathology},
   author =       {Ghaffari Laleh, Narmin and Echle, Amelie and Muti, Hannah Sophie and Hewitt, Katherine Jane and Volkmar, Schulz and Kather, Jakob Nikolas},
   booktitle = 	 {Proceedings of the MICCAI Workshop on Computational Pathology},
