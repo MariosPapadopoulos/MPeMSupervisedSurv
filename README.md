@@ -5,7 +5,7 @@ We introduce MPeMSupervisedSurv, a Convolutional Neural Network designed to pred
 
 Using our proposed model, we performed patient stratification to assess the impact of clinical variables on survival time. Notably, the inclusion of information regarding adjuvant chemotherapy significantly enhances the model’s predictive prowess. Therefore, our findings indicate that treatment by adjuvant chemotherapy could be a factor affecting survival time.
 
-The article was published in MDPI:
+Our article was found in MDPI:
 ```bash
 @Article{biomedinformatics4010046,
 author = {Papadopoulos, Kleanthis Marios and Barmpoutis, Panagiotis and Stathaki, Tania and Kepenekian, Vahan and Dartigues, Peggy and Valmary-Degano, Séverine and Illac-Vauquelin, Claire and Avérous, Gerlinde and Chevallier, Anne and Laverriere, Marie-Hélène and Villeneuve, Laurent and Glehen, Olivier and Isaac, Sylvie and Hommell-Fontaine, Juliette and Ng Kee Kwong, Francois and Benzerdjeb, Nazim},
