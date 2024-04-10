@@ -18,17 +18,17 @@ The article was published in MDPI:
 ```bash
 
 @Article{biomedinformatics4010046,
-AUTHOR = {Papadopoulos, Kleanthis Marios and Barmpoutis, Panagiotis and Stathaki, Tania and Kepenekian, Vahan and Dartigues, Peggy and Valmary-Degano, Séverine and Illac-Vauquelin, Claire and Avérous, Gerlinde and Chevallier, Anne and Laverriere, Marie-Hélène and Villeneuve, Laurent and Glehen, Olivier and Isaac, Sylvie and Hommell-Fontaine, Juliette and Ng Kee Kwong, Francois and Benzerdjeb, Nazim},
+author = {Papadopoulos, Kleanthis Marios and Barmpoutis, Panagiotis and Stathaki, Tania and Kepenekian, Vahan and Dartigues, Peggy and Valmary-Degano, Séverine and Illac-Vauquelin, Claire and Avérous, Gerlinde and Chevallier, Anne and Laverriere, Marie-Hélène and Villeneuve, Laurent and Glehen, Olivier and Isaac, Sylvie and Hommell-Fontaine, Juliette and Ng Kee Kwong, Francois and Benzerdjeb, Nazim},
 TITLE = {Overall Survival Time Estimation for Epithelioid Peritoneal Mesothelioma Patients from Whole-Slide Images},
-JOURNAL = {BioMedInformatics},
-VOLUME = {4},
-YEAR = {2024},
-NUMBER = {1},
-PAGES = {823--836},
-URL = {https://www.mdpi.com/2673-7426/4/1/46},
-ISSN = {2673-7426},
-ABSTRACT = {Background: The advent of Deep Learning initiated a new era in which neural networks relying solely on Whole-Slide Images can estimate the survival time of cancer patients. Remarkably, despite deep learning’s potential in this domain, no prior research has been conducted on image-based survival analysis specifically for peritoneal mesothelioma. Prior studies performed statistical analysis to identify disease factors impacting patients’ survival time. Methods: Therefore, we introduce MPeMSupervisedSurv, a Convolutional Neural Network designed to predict the survival time of patients diagnosed with this disease. We subsequently perform patient stratification based on factors such as their Peritoneal Cancer Index and on whether patients received chemotherapy treatment. Results: MPeMSupervisedSurv demonstrates improvements over comparable methods. Using our proposed model, we performed patient stratification to assess the impact of clinical variables on survival time. Notably, the inclusion of information regarding adjuvant chemotherapy significantly enhances the model’s predictive prowess. Conversely, repeating the process for other factors did not yield significant performance improvements. Conclusions: Overall, MPeMSupervisedSurv is an effective neural network which can predict the survival time of peritoneal mesothelioma patients. Our findings also indicate that treatment by adjuvant chemotherapy could be a factor affecting survival time.},
-DOI = {10.3390/biomedinformatics4010046}
+journal = {BioMedInformatics},
+volume = {4},
+year = {2024},
+number = {1},
+pages = {823--836},
+url = {https://www.mdpi.com/2673-7426/4/1/46},
+issn = {2673-7426},
+abstract = {Background: The advent of Deep Learning initiated a new era in which neural networks relying solely on Whole-Slide Images can estimate the survival time of cancer patients. Remarkably, despite deep learning’s potential in this domain, no prior research has been conducted on image-based survival analysis specifically for peritoneal mesothelioma. Prior studies performed statistical analysis to identify disease factors impacting patients’ survival time. Methods: Therefore, we introduce MPeMSupervisedSurv, a Convolutional Neural Network designed to predict the survival time of patients diagnosed with this disease. We subsequently perform patient stratification based on factors such as their Peritoneal Cancer Index and on whether patients received chemotherapy treatment. Results: MPeMSupervisedSurv demonstrates improvements over comparable methods. Using our proposed model, we performed patient stratification to assess the impact of clinical variables on survival time. Notably, the inclusion of information regarding adjuvant chemotherapy significantly enhances the model’s predictive prowess. Conversely, repeating the process for other factors did not yield significant performance improvements. Conclusions: Overall, MPeMSupervisedSurv is an effective neural network which can predict the survival time of peritoneal mesothelioma patients. Our findings also indicate that treatment by adjuvant chemotherapy could be a factor affecting survival time.},
+doi = {10.3390/biomedinformatics4010046}
 }
 
 ```
