@@ -1,4 +1,4 @@
-# MPeMSupervisedSurv
+# Overall Survival Time Estimation for Epithelioid Peritoneal Mesothelioma Patients from Whole-Slide Images
 
 The advent of Deep Learning initiated a new era in which neural networks relying solely on Whole-Slide Images can estimate the survival time of cancer patients. Remarkably, despite deep learning’s potential in this domain, no prior research has been conducted on image-based survival analysis specifically for peritoneal mesothelioma. 
 We introduce MPeMSupervisedSurv, a Convolutional Neural Network designed to predict the survival time of patients diagnosed with this disease.  MPeMSupervisedSurv demonstrates improvements over comparable methods with full patch supervision.
