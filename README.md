@@ -9,7 +9,7 @@ Our article is featured in MDPI:
 ```bash
 @Article{biomedinformatics4010046,
 author = {Papadopoulos, Kleanthis Marios and Barmpoutis, Panagiotis and Stathaki, Tania and Kepenekian, Vahan and Dartigues, Peggy and Valmary-Degano, Séverine and Illac-Vauquelin, Claire and Avérous, Gerlinde and Chevallier, Anne and Laverriere, Marie-Hélène and Villeneuve, Laurent and Glehen, Olivier and Isaac, Sylvie and Hommell-Fontaine, Juliette and Ng Kee Kwong, Francois and Benzerdjeb, Nazim},
-TITLE = {Overall Survival Time Estimation for Epithelioid Peritoneal Mesothelioma Patients from Whole-Slide Images},
+title = {Overall Survival Time Estimation for Epithelioid Peritoneal Mesothelioma Patients from Whole-Slide Images},
 journal = {BioMedInformatics},
 volume = {4},
 year = {2024},
