@@ -42,3 +42,6 @@ MPeMSupervisedSurv is a CNN inspired from EE-Surv:
 ```
 The code contained in MPeMSupervisedSurv also draws inspiration from the Google Colab notebook found in the link below:
 https://colab.research.google.com/github/sebp/survival-cnn-estimator/blob/master/tutorial_tf2.ipynb#scrollTo=azrczYYVvEQb.
+
+## Code Information
+The script SurvivalMain.py contains the main training code and the script SurvivalUtils.py includes the functions for model training and validation. A seperate file SurvivalMainChemotherapy is used to perform patient stratification so that factors affecting Overall Survival can be identified. 
