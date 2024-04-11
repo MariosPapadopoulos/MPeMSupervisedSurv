@@ -40,24 +40,23 @@ def nameFiltering(path):
 if __name__ == '__main__':
     tf.random.set_seed(1234)
     np.random.seed(1234)
-    csv_path='Recreated_NO_CHANGES_FRI15.csv'
+    #csv_path : csv file with patient information
     
     df=pd.read_csv(csv_path)
     train_index = df[df['Train_Test']=='Train'].index
     test_index = df[df['Train_Test']=='Test'].index
     df_train=df[df['Train_Test']=='Train'].reset_index(drop=True)
     df_test=df[df['Train_Test']=='Test'].reset_index(drop=True)
-    df_train= df_train.drop(42).reset_index(drop=True)
+    df_train= df_train.drop(42).reset_index(drop=True) #drop patient with very few WSIs
     
    
-    ###i changed the csv file so that we have 80% training and 20% testing
+    ###I changed the csv file train/test column so that we have 80% training and 20% testing
     num_patches=250
     image_dim= 128
     train_x_tiles = list(df_train['Path'])
     for pos, i in enumerate(train_x_tiles):
         temp1_normal, temp1_aug= nameFiltering(i)
         temp1= temp1_normal.copy()
-        
         
         if len(temp1_normal)<num_patches:
             temp2= temp1_aug[0: num_patches-len(temp1_normal)]
