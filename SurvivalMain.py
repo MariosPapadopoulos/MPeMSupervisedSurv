@@ -115,10 +115,8 @@ if __name__ == '__main__':
     BATCH_SIZE=64
     train_fn = InputFunction(train_x, train_time, train_event, batch_size=BATCH_SIZE, drop_last = True, shuffle = True, seed=1234)
     eval_fn = InputFunction(test_x, test_time, test_event, batch_size=BATCH_SIZE, drop_last = True, shuffle = False, seed=1234)
-    
 
-    ##best cindex observed is 0.66 for MPeM dataset
-    
+    ##model construction
     base_model= ResNet101(weights='imagenet', include_top=False)
     x = base_model.output
     x = GlobalAveragePooling2D()(x)
